@@ -18,14 +18,13 @@
     border-radius: 0px 0px 4px 4px;
     background-color: $primary-white-color;
     text-align: center;
-}
 
-.staff-item:nth-child(4n) {
-    margin-right: 0px;
-}
-
-.staff-item:nth-last-child(-n+4) {
-    margin-bottom: 0px;
+    &:nth-child(4n) {
+        margin-right: 0px;
+    }    
+    &:nth-last-child(-n+4) {
+        margin-bottom: 0px;
+    }
 }
 
 .staff-content {
@@ -65,15 +64,14 @@
 
     transition: background-color 250ms $timing-function, 
     color 250ms $timing-function; 
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        color: $primary-white-color;
+    }
 }
 
-.social-links:hover,
-.social-links:focus {
-    background-color: $accent-color;
-    color: $primary-white-color;
-}
-
-.soc-links-svg,
-.soc-links-svg:hover {
+.soc-links-svg {
     fill: currentColor;
 }

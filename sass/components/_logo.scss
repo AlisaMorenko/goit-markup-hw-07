@@ -1,7 +1,7 @@
 /* стилизация логотипа в хедере*/
 .logo {
     color: $primary-black-color;
-    font-family: Raleway, sans-serif;
+    font-family: $logo-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -10,4 +10,11 @@
 
 .main-logo {
     color: $accent-color;
+}
+
+/* стилизация логотипа в футере*/
+.footer .logo {
+    color: $primary-white-color;
+    display: block;
+    margin-bottom: 20px;
 }
