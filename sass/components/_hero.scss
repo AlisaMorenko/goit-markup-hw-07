@@ -1,7 +1,7 @@
 /* стилицация героя */
 .hero {
     background-color: $hero-bg-color;
-    letter-spacing: 0.06em;
+    letter-spacing: $secondary-letter-spacing;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;

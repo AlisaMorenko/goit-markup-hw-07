@@ -2,9 +2,9 @@ body {
     background-color: $primary-white-color;
     color: $primary-text-color;
     font-family: $primary-font;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
+    font-size: $primary-font-size;
+    font-weight: $primary-font-weight;
+    letter-spacing: $primary-letter-spacing;
 }
 
 /* сброс маркеров у ненумерованных списков*/
@@ -45,7 +45,7 @@ img {
 
 /* button */
 .button {
-    font-size: 16px;
+    font-size: $secondary-font-size;
     text-decoration: none;
 
     border-radius: 4px;
@@ -58,9 +58,9 @@ img {
 .button.primary {
     color: $primary-white-color;
     background-color: $accent-color;
-    font-weight: 700;
+    font-weight: $bold-font-weight;
     line-height: 1.87;
-    letter-spacing: 0.06em;
+    letter-spacing: $secondary-letter-spacing;
     align-items: center;
 
     display: inline-block;
@@ -75,7 +75,7 @@ img {
     color: $title-text-color;
     font-weight: 500;
     line-height: 1.62;
-    letter-spacing: 0.03em;
+    letter-spacing: $primary-letter-spacing;
     font-family: inherit;
     
     padding: 6px 22px;
@@ -100,7 +100,7 @@ img {
 .staff-title,
 .clients-title {
     color: $title-text-color;
-    font-weight: 700;
+    font-weight: $bold-font-weight;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;

@@ -34,14 +34,14 @@
 .name {
     color: $title-text-color;
     font-weight: 500;
-    font-size: 16px;
+    font-size: $secondary-font-size;
     line-height: 1.19;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
 .profession {
-    font-size: 16px;
+    font-size: $secondary-font-size;
     line-height: 1.19;
 
     margin-top: 0px;

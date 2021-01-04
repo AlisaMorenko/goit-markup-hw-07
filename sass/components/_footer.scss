@@ -45,7 +45,7 @@ address {
 .join-us {
     line-height: 1.17;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: $bold-font-weight;
     margin-top: 0px;
     margin-bottom: 20px;
 
@@ -89,16 +89,16 @@ address {
     border-radius: 4px;
     background-color: $footer-color;
     padding: 14px 16px;
-    font-size: 16px;
+    font-size: $secondary-font-size;
     line-height: 1.25;
-    letter-spacing: 0.03em;
+    letter-spacing: $primary-letter-spacing;
     margin-right: 8px;
     color: $primary-white-color;
 
     &::placeholder {
-        font-size: 16px;
+        font-size: $secondary-font-size;
         line-height: 1.25;
-        letter-spacing: 0.03em;
+        letter-spacing: $primary-letter-spacing;
         color: rgba(255, 255, 255, 0.6);
     }
 }
@@ -108,9 +108,9 @@ address {
 .button.join {
     color: $primary-white-color;
     background-color: $accent-color;
-    font-weight: 700;
+    font-weight: $bold-font-weight;
     line-height: 1.87;
-    letter-spacing: 0.06em;
+    letter-spacing: $secondary-letter-spacing;
     align-items: center;
 
     display: inline-flex;
